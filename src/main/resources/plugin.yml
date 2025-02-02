@@ -1,0 +1,14 @@
+name: OneBlockCore
+version: '${project.version}'
+main: com.stylowamc.obc.OBC
+api-version: 1.20.6
+softdepend: ['Multiverse-Core']
+commands:
+  obc:
+    description: Glowna komenda obc
+  przepustka:
+    description: Teleportuje gracza do endu (zuzywa przepustke)
+  kupon:
+    description: Do odbierania blokow!
+  live:
+    description: live!
